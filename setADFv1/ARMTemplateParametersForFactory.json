@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "setADFv1"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDW1_connectionString": {
+			"value": ""
+		},
+		"LinkFromAzureSqlDBToSqlDW_connectionString": {
+			"value": ""
+		},
+		"OnPremSQLServer_connectionString": {
+			"value": ""
+		},
+		"OnPremSQLServer_password": {
+			"value": ""
+		},
+		"SourceBlobStorage_connectionString": {
+			"value": ""
+		},
+		"OnPremSQLServer_properties_typeProperties_userName": {
+			"value": "DSVM2016\\sqladmin"
+		},
+		"BlobTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/d8713a47-11b8-4f49-906f-d3a19b744cc0/resourceGroups/MYRG/providers/Microsoft.Storage/storageAccounts/setstorageacc"
+		}
+	}
+}
